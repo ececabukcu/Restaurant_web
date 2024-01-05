@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- header section start-->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+            <button id="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+            <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="search here" />
+            <i class="fas fa-search"></i>
+
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-1.png" alt="menu">
+                <div class="content">
+                    <h3>Meat Pizza</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-2.png" alt="menu">
+                <div class="content">
+                    <h3>Burger N' Bite</h3>
+                    <div class="price">$18.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-3.png" alt="menu">
+                <div class="content">
+                    <h3>Veggie Pizza</h3>
+                    <div class="price">$20.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/menu-4.png" alt="menu">
+                <div class="content">
+                    <h3>Grill Thrill</h3>
+                    <div class="price">$16.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">check out now</a>
+        </div>
+
+
+    </header>
+    <!-- header section end-->
+
+    <!-- home section start-->
+    <section class="home" id="home">
+        <div class=" content ">
+            <h3>FINGER-BITING FLAVOR</h3>
+            <p>Who hasn't tried Frodo's delicious hamburger?</p>
+            <a href="# " class="btn ">Order Now</a>
+        </div>
+    </section>
+    <!-- home section end-->
+
+    <!-- menu section start-->
+    <section class="menu" id="menu">
+        <h1 class="heading ">OUR <span>MENU</span></h1>
+        <div class="box-container ">
+            <div class="box ">
+                <div class="box-head ">
+                    <img src="images/menu-1.png " alt="menu " />
+                    <span class="menu-category ">Pizza</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <div class="price ">$75.99 <span>$99.99</span></div>
+                </div>
+                <div class="box-buttom ">
+                    <a href="# " class="btn ">Add to cart</a>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-head ">
+                    <img src="images/menu-2.png " alt="menu " />
+                    <span class="menu-category ">Burger</span>
+                    <h3>5 Mini Burgers</h3>
+                    <div class="price ">$99.99 <span>109.99</span></div>
+                </div>
+                <div class="box-buttom ">
+                    <a href="# " class="btn ">Add to cart</a>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-head ">
+                    <img src="images/menu-3.png " alt="menu " />
+                    <span class="menu-category ">Pizza</span>
+                    <h3>2 Mixed Pizzas</h3>
+                    <div class="price ">$49.99 <span>$59.99</span></div>
+                </div>
+                <div class="box-buttom ">
+                    <a href="# " class="btn ">Add to cart</a>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="box-head ">
+                    <img src="images/menu-4.png " alt="menu " />
+                    <span class="menu-category ">Burger</span>
+                    <h3>3 Meatball Burgers</h3>
+                    <div class="price ">$79.99 <span>$99.99</span></div>
+                </div>
+                <div class="box-buttom ">
+                    <a href="# " class="btn ">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end-->
+
+    <!--product start -->
+    <section class="products" id="products">
+        <h1 class="heading ">OUR <span>PRODUCTS</span></h1>
+        <div class="box-container ">
+            <div class="box ">
+                <div class="box-head ">
+                    <span class="title ">MINI BURGER</span>
+                    <a href="# " class="name ">Bacon Burger</a>
+                </div>
+                <div class="image ">
+                    <img src="images/product-1.png " alt=" " />
+                </div>
+                <div class="box-buttom ">
+                    <div class="info ">
+                        <b class="price ">$6.00</b>
+                        <span class="amount ">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn ">
+                        <a href="# ">
+                            <i class="fas fa-plus "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box ">
+                <div class="box-head ">
+                    <span class="title ">MINI BURGER</span>
+                    <a href="# " class="name ">Black Bacon Burger</a>
+                </div>
+                <div class="image ">
+                    <img src="images/product-2.png " alt=" " />
+                </div>
+                <div class="box-buttom ">
+                    <div class="info ">
+                        <b class="price ">$8.00</b>
+                        <span class="amount ">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn ">
+                        <a href="# ">
+                            <i class="fas fa-plus "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box dark-bg ">
+                <div class="box-head ">
+                    <p style="color: white !important; " class="title ">MINI BURGER</p>
+                    <a href="# " class="name ">Black Bacon Burger</a>
+                </div>
+                <div class="image ">
+                    <img src="images/dark-product.jpg " alt=" " />
+                </div>
+                <div class="box-buttom ">
+                    <div class="info ">
+                        <b class="price ">$8.00</b>
+                        <span class="amount ">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn ">
+                        <a href="# ">
+                            <i class="fas fa-plus "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--product end -->
+
+    <!--about start -->
+    <section class="about" id="about">
+        <h1 class="heading ">ABOUT <span>US</span></h1>
+        <div class="row ">
+            <div class="image ">
+                <img src="images/about.jpg " alt="about " />
+            </div>
+            <div class="content ">
+                <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+                <p>
+                    A hamburger is a sandwich consisting of a cooked meat patty on a bun or roll. You can order a hamburger, fries, and a shake at most fast food restaurants. Hamburgers are traditionally made with ground beef and served with onions, tomatoes, lettuce, ketchup,
+                    and other garnishes.
+                </p>
+                <a href="# " class="btn ">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--about end -->
+
+    <!--review start -->
+    <section class="review" id="review">
+        <h1 class="heading ">CUSTOMER'S<span> REVIEW</span></h1>
+        <div class="box-container ">
+            <div class="box ">
+                <img src="images/quote.png " alt="quote " />
+                <p>
+                    Beste Burger in Doha. Nog nooit zon lekkere burger gegeten. Ligt vlak naast de mall Villagio en naast het stadion waar het Nederlands elftal speelt.
+                </p>
+                <img src="images/avatar-2.png " alt="avatar1 " class="user " />
+                <h3>John Doe</h3>
+                <div class="stars ">
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+            </div>
+
+            <div class="box ">
+                <img src="images/quote.png " alt="quote " />
+                <p>
+                    Hambúrguers ótimos, com molhos picantes a disposição, refrigerantes, mesmo padrão das grande hambúrguerias, difere em uma batata doce frita ótima.
+                </p>
+                <img src="images/avatar-1.png " alt="avatar1 " class="user " />
+                <h3>Lisa Arambula</h3>
+                <div class="stars ">
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star-half-alt "></i>
+                </div>
+            </div>
+
+            <div class="box ">
+                <img src="images/quote.png " alt="quote " />
+                <p>
+                    Great little burger and shake joint across from the back parking lot at Villaggio Mall. It is actually in Aspire Park. State-side burgers and shakes and the tastiest sweet potato fries ever.
+                </p>
+                <img src="images/avatar-3.png " alt="avatar1 " class="user " />
+                <h3>Jennifer Becker</h3>
+                <div class="stars ">
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+                    <i class="fas fa-star "></i>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--review end -->
+
+    <!--contact start -->
+    <section class="contact" id="contact">
+        <h1 class="heading ">CONTACT <span>US</span></h1>
+        <div class="row ">
+            <iframe class="map " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96384.53928927281!2d28.99301308362685!3d40.98111180559732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1sen!2str!4v1680780727551!5m2!1sen!2str "
+                loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="input-box ">
+                    <i class="fas fa-user "></i>
+                    <input type="text " placeholder="name ">
+                </div>
+
+                <div class="input-box "> <i class="fas fa-phone "></i>
+                    <input type="text " placeholder="number ">
+                </div>
+
+                <div class="input-box "><i class="fas fa-envelope "></i><input type="text " placeholder="email ">
+                </div>
+
+                <input type="submit " class="btn " value="contact now ">
+            </form>
+        </div>
+
+
+    </section>
+    <!--contact end -->
+
+    <!--footer start -->
+    <section class="footer ">
+        <div class="search ">
+            <input type="text " class="search-input " placeholder="Search " />
+            <button class="btn btn-primary ">search</button>
+        </div>
+        <div class="share ">
+            <a href="# " class="fab fa-facebook "></a>
+            <a href="# " class="fab fa-twitter "></a>
+            <a href="# " class="fab fa-instagram "></a>
+            <a href="# " class="fab fa-linkedin "></a>
+            <a href="# " class="fab fa-pinterest "></a>
+        </div>
+        <div class="links ">
+            <a href="# " class="active ">Home</a>
+            <a href="# ">About</a>
+            <a href="# ">Menu</a>
+            <a href="# ">Products</a>
+            <a href="# ">Review</a>
+            <a href="# ">Contact</a>
+        </div>
+        <div class="credit ">
+            created by <span> Ece Çabukçu </span> all rights reserved
+        </div>
+    </section>
+
+    <!--footer end -->
+
+    <script type="module" src="js/script.js"></script>
+
+
+</body>
+
+</html>
